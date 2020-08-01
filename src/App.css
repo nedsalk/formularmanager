@@ -1,0 +1,165 @@
+form {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0.15rem solid #000;
+  border-radius: 10px;
+  width: 50%;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #FFD07B;
+}
+
+body {
+  background-color: #FDB833;
+}
+.form-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+
+.row-flex .label,
+.row-flex .inputType,
+.row-flex .radioButtonLabels,
+.row-flex .inputStatus {
+font-size: 12px;
+font-weight: bold;
+text-align: left;
+/* width: max-content;
+height: max-content; */
+}
+
+.row-flex .elementNumber {
+  display: flex;
+  text-align: left;
+  width: 2.5cm;
+}
+.row-flex .label {
+  display: flex;
+  flex-direction: column;
+  width: 5cm;
+  height: max-content;
+}
+
+.row-flex .inputTypeAll {
+  display: flex;
+  flex-direction: column;
+  width: 5.5cm;
+}
+
+.row-flex .inputStatus {
+  display: flex;
+  flex-direction: column;
+  width: 2.7cm;
+  height: max-content;
+}
+
+.row-flex .inputTypeAll .oneRadioButtonLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} 
+
+.row-flex .rowButtons {
+  display: flex;
+  flex-direction: row;
+  width: 2cm;
+  justify-content: right;
+}
+
+button, input, select {
+  height: max-content;
+  border-radius: 2px;
+}
+
+.inputType {
+  width: max-content;
+}
+
+.form-flex .saveFormularButton {
+  display: flex;
+  width: max-content;
+  align-self: flex-end;
+}
+
+.inputFormularData .row-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.inputFormularData .row-flex .labelName {
+  display: flex;
+  flex: 1;
+}
+
+.inputFormularData .row-flex .radioButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputFormularData .row-flex .formularContent {
+  display: flex;
+  flex: 3;
+  justify-content: left;
+}
+
+.app {
+  text-align: left;
+}
+
+.submitButton {
+  display: flex;
+  font-weight: bold;
+
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navigation {
+  display: flex;
+  margin-top: 1cm;
+  margin-bottom: -10px;
+  width: 65%;
+  justify-content: center;
+}
+.navigation .element {
+  padding: 0px 5px;
+  margin: 0px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #FFD07B;
+}
+
+
+
+button {
+  font-weight: bold;
+}
+.searchButton {
+  padding: 0px 5px;
+  margin: 0px 25px;
+  width: max-content;
+}
+
+.searchInput{
+  padding: 0px 5px;
+  margin: 0px 15px;
+}
+.searchFormularName {
+  display: flex;
+  align-items: center;
+}
+
+.formularVersion {
+  width: 1cm;
+  text-align: center;
+}
